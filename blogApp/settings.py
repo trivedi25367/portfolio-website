@@ -39,10 +39,10 @@ SECRET_KEY = os.environ.get(
 DEBUG = env_bool("DJANGO_DEBUG", True)
 
 
-    ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    '.onrender.com'
+ALLOWED_HOSTS = [
+    "portfolio-website-a92w.onrender.com",
+    "127.0.0.1",
+    "localhost",
 ]
 
 
